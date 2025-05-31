@@ -8,16 +8,16 @@
 
 ## Содержание
 
-- [Рекомендуемые материалы для чтения](#рекомендуемые-материалы-для-чтения)
-- [Текст](#текст)
-- [Программирование](#программирование)
-- [Агенты](#агенты)
-- [Изображения](#изображения)
-- [Видео](#видео)
-- [Аудио](#аудио)
-- [Другое](#другое)
-- [Обучающие ресурсы](#обучающие-ресурсы)
-- [Дополнительные списки](#дополнительные-списки)
+- [Рекомендуемые материалы для чтения](#рекомендуемые-материалы-для-чтения) - Ключевые статьи и важные вехи в развитии генеративного ИИ
+- [Текст](#текст) - Модели, чат-боты, поисковые системы и инструменты для работы с текстом
+- [Программирование](#программирование) - ИИ-помощники для разработчиков и инструменты для работы с кодом
+- [Агенты](#агенты) - Автономные ИИ-агенты и пользовательские ассистенты
+- [Изображения](#изображения) - Генерация и редактирование изображений с помощью ИИ
+- [Видео](#видео) - Создание и редактирование видео, аватары и анимация
+- [Аудио](#аудио) - Преобразование текста в речь, распознавание речи и генерация музыки
+- [Другое](#другое) - Различные инструменты и сервисы, не вошедшие в другие категории
+- [Обучающие ресурсы](#обучающие-ресурсы) - Курсы, руководства и материалы для изучения генеративного ИИ
+- [Дополнительные списки](#дополнительные-списки) - Другие полезные коллекции ресурсов по генеративному ИИ
 
 ## Рекомендуемые материалы для чтения
 
@@ -40,6 +40,8 @@
 - [DALL·E 3](https://openai.com/index/dall-e-3/) - Анонс генератора изображений DALL·E 3. Блог OpenAI, 20 сентября 2023.
 - [Sora](https://openai.com/research/video-generation-models-as-world-simulators) - Презентация Sora, большой модели генерации видео. OpenAI, 15 февраля 2024.
 
+---
+
 ## Текст
 
 ### Модели
@@ -47,13 +49,13 @@
 - [OpenAI API](https://openai.com/api/) - API OpenAI предоставляет доступ к моделям GPT-3 и GPT-4, которые выполняют широкий спектр задач обработки естественного языка, и Codex, который переводит естественный язык в код.
 - [Gopher](https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval) - Gopher от DeepMind - это языковая модель с 280 миллиардами параметров.
 - [OPT](https://huggingface.co/facebook/opt-350m) - Open Pretrained Transformers (OPT) от Facebook - это набор предварительно обученных трансформеров только для декодирования. [Анонс](https://ai.facebook.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/). [Генерация текста OPT-175B](https://opt.alpa.ai/) размещена на Alpa.
-- [Bloom](https://huggingface.co/docs/transformers/model_doc/bloom) - BLOOM от Hugging Face - это модель, похожая на GPT-3, которая была обучена на 46 различных языках и 13 языках программирования. #opensource
-- [Llama](https://www.llama.com/) - Открытая языковая модель от Meta. #opensource
+- [Bloom](https://huggingface.co/docs/transformers/model_doc/bloom) - #opensource BLOOM от Hugging Face - это модель, похожая на GPT-3, которая была обучена на 46 различных языках и 13 языках программирования.
+- [Llama](https://www.llama.com/) - #opensource Открытая языковая модель от Meta.
 - [Claude](https://claude.ai/) - Общайтесь с Claude, ИИ-ассистентом от Anthropic.
-- [Vicuna-13B](https://lmsys.org/blog/2023-03-30-vicuna/) - Открытый чат-бот, обученный путем тонкой настройки LLaMA на пользовательских беседах, собранных из ShareGPT. #opensource
-- [Mistral](https://mistral.ai/en/models) - Передовые открытые LLM от Mistral AI. #opensource
-- [Grok](https://grok.x.ai/) - LLM от xAI с [открытым исходным кодом](https://github.com/xai-org/grok-1) и открытыми весами. #opensource
-- [Qwen](https://qwenlm.github.io/) - Серия LLM, независимо разработанных Alibaba Cloud. [#opensource](https://github.com/QwenLM/Qwen)
+- [Vicuna-13B](https://lmsys.org/blog/2023-03-30-vicuna/) - #opensource Открытый чат-бот, обученный путем тонкой настройки LLaMA на пользовательских беседах, собранных из ShareGPT.
+- [Mistral](https://mistral.ai/en/models) - #opensource Передовые открытые LLM от Mistral AI.
+- [Grok](https://grok.x.ai/) - #opensource LLM от xAI с [открытым исходным кодом](https://github.com/xai-org/grok-1) и открытыми весами.
+- [Qwen](https://qwenlm.github.io/) - #opensource Серия LLM, независимо разработанных Alibaba Cloud.
 
 ### Чат-боты
 
@@ -160,6 +162,8 @@
 - [EmailTriager](https://www.emailtriager.com/) - Используйте ИИ для автоматического составления ответов на электронные письма в фоновом режиме.
 - [AI Poem Generator](https://www.aipoemgenerator.org) - Генератор стихов на базе ИИ пишет красивое рифмованное стихотворение на любую тему по текстовому запросу.
 
+---
+
 ## Программирование
 
 ### Помощники по программированию
@@ -217,6 +221,8 @@
 - [PyGPT](https://pygpt.net/) - Персональный настольный ИИ-ассистент с чатом, зрением, агентами, генерацией изображений, инструментами и командами, голосовым управлением и многим другим. #opensource
 - [LLM](https://llm.datasette.io/) - Утилита CLI и Python-библиотека для взаимодействия с большими языковыми моделями, удаленными и локальными. [#opensource](https://github.com/simonw/llm)
 
+---
+
 ## Агенты
 
 ### Автономные агенты
@@ -238,6 +244,8 @@
 - [Poe](https://poe.com/) - Poe предоставляет доступ к различным ботам.
 - [GPT Builder](https://chat.openai.com/gpts/editor) - Ассистент для создания ассистентов на базе GPT.
 - [GPTStore](https://gptstore.ai/) - Найдите полезные GPT. Поделитесь своими GPT.
+
+---
 
 ## Изображения
 
@@ -304,6 +312,8 @@
 - [Stableboost](https://stableboost.ai/) - Stableboost - это Stable Diffusion WebUI, который позволяет быстро генерировать множество изображений, чтобы найти идеальные.
 - [Hugging Face Diffusion Models Course](https://github.com/huggingface/diffusion-models-class) - Материалы на Python для онлайн-курса по моделям диффузии от [@huggingface](https://github.com/huggingface).
 
+---
+
 ## Видео
 
 - [Runway](https://runwayml.com/) - Волшебные инструменты ИИ, совместная работа в реальном времени, точное редактирование и многое другое. Ваш набор инструментов для создания контента следующего поколения.
@@ -329,6 +339,8 @@
 ### Анимация
 
 - [Wonder Dynamics](https://wonderdynamics.com/) - Легко анимируйте, освещайте и компонуйте CG-персонажей в живые сцены.
+
+---
 
 ## Аудио
 
@@ -361,6 +373,8 @@
 - [Suno AI](https://www.suno.ai/) - Каждый может создавать отличную музыку. Не нужны инструменты, только воображение. От вашей мысли к музыке.
 - [Udio](https://www.udio.com/) - Открывайте, создавайте и делитесь музыкой со всем миром.
 
+---
+
 ## Другое
 
 - [Diagram](https://diagram.com/) - Волшебные новые способы проектирования продуктов.
@@ -376,6 +390,8 @@
 - [Morpher AI](https://morpher.com/ai) - Morpher AI предоставляет аналитику и анализ в реальном времени для любого рынка.
 - [Whimsical AI](https://whimsical.com/ai) - Интеллект-карты, блок-схемы и визуальные инструменты на базе GPT для быстрой разработки идей и организации процессов.
 
+---
+
 ## Обучающие ресурсы
 
 - [Learn Prompting](https://learnprompting.org/) - Бесплатный курс с открытым исходным кодом по общению с искусственным интеллектом.
@@ -386,6 +402,8 @@
 - [PromptPerfect](https://promptperfect.jina.ai/) - Инструмент для инженерии промптов.
 - [Anthropic courses](https://github.com/anthropics/courses) - Образовательные курсы от Anthropic.
 - [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch) - Руководство по созданию собственной рабочей LLM, автор Себастьян Рашка.
+
+---
 
 ## Дополнительные списки
 
