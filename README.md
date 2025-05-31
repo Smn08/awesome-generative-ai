@@ -1,4 +1,4 @@
-# Awesome Generative AI [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+# Лучшие генеративные AI [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
 > Кураторский список современных проектов и сервисов генеративного искусственного интеллекта.
 
