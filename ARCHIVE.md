@@ -1,8 +1,8 @@
-# Archive of the Awesome Generative AI list
+# Архив списка Awesome Generative AI
 
-These projects are not active anymore in generative AI.
+Эти проекты больше не активны в области генеративного ИИ.
 
-- [Kite](https://www.kite.com/) - Kite adds AI powered code completions to your code editor, giving developers superpowers. [Farewell message](https://www.kite.com/blog/product/kite-is-saying-farewell/). [Code](https://github.com/kiteco).
-- [Pygma](https://twitter.com/pygma_app) - Turn Figma designs into high-quality code.
-- [Coqui](https://coqui.ai/) - Coqui is dedicated to open speech technology and to serving as the hub where speech researchers, developers, and practitioners congregate.
-- [Contenda](https://contenda.co/) - Create the content your audience wants, from content you've already made.
+- [Kite](https://www.kite.com/) - Kite добавляет в ваш редактор кода автодополнение на базе ИИ, давая разработчикам сверхспособности. [Прощальное сообщение](https://www.kite.com/blog/product/kite-is-saying-farewell/). [Код](https://github.com/kiteco).
+- [Pygma](https://twitter.com/pygma_app) - Превращайте дизайны Figma в качественный код.
+- [Coqui](https://coqui.ai/) - Coqui посвящен открытым технологиям распознавания речи и служит центром, где собираются исследователи, разработчики и практики в области распознавания речи.
+- [Contenda](https://contenda.co/) - Создавайте контент, который хочет ваша аудитория, из контента, который вы уже создали.

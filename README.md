@@ -1,409 +1,410 @@
 # Awesome Generative AI [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-> A curated list of modern Generative Artificial Intelligence projects and services.
+> Кураторский список современных проектов и сервисов генеративного искусственного интеллекта.
 
-Generative Artificial Intelligence is a technology that creates original content such as images, sounds, and texts by using machine learning algorithms that are trained on large amounts of data. Unlike other forms of AI, it is capable of creating unique and previously unseen outputs such as photorealistic images, digital art, music, and writing. These outputs often have their own unique style and can even be hard to distinguish from human-created works. Generative AI has a wide range of applications in fields such as of art, entertainment, marketing, academia, and computer science.
+Генеративный искусственный интеллект - это технология, которая создает оригинальный контент, такой как изображения, звуки и тексты, используя алгоритмы машинного обучения, обученные на больших объемах данных. В отличие от других форм ИИ, он способен создавать уникальные и ранее невиданные результаты, такие как фотореалистичные изображения, цифровое искусство, музыка и письменные произведения. Эти результаты часто имеют свой собственный уникальный стиль и могут быть даже трудно отличимы от работ, созданных человеком. Генеративный ИИ имеет широкий спектр применений в таких областях, как искусство, развлечения, маркетинг, академические исследования и компьютерные науки.
 
-Contributions to this list are welcome. Before submitting your suggestions, please review the [Contribution Guidelines](CONTRIBUTING.md) to ensure your entries meet the criteria. Add links through [pull requests](https://github.com/steven2358/awesome-generative-ai/pulls) or create an [issue](https://github.com/steven2358/awesome-generative-ai/issues) to start a discussion. More projects can be found in the [Discoveries List](DISCOVERIES.md), where we showcase a wide range of up-and-coming Generative AI projects.
+Вклад в этот список приветствуется. Перед отправкой ваших предложений, пожалуйста, ознакомьтесь с [Руководством по внесению вклада](CONTRIBUTING.md), чтобы убедиться, что ваши записи соответствуют критериям. Добавляйте ссылки через [pull requests](https://github.com/steven2358/awesome-generative-ai/pulls) или создавайте [issue](https://github.com/steven2358/awesome-generative-ai/issues) для начала обсуждения. Больше проектов можно найти в [Списке открытий](DISCOVERIES.md), где мы представляем широкий спектр перспективных проектов генеративного ИИ.
 
-## Contents
+## Содержание
 
-- [Recommended reading](#recommended-reading)
-- [Text](#text)
-- [Coding](#coding)
-- [Agents](#agents)
-- [Image](#image)
-- [Video](#video)
-- [Audio](#audio)
-- [Other](#other)
-- [Learning resources](#learning-resources)
-- [More lists](#more-lists)
+- [Рекомендуемые материалы для чтения](#recommended-reading)
+- [Текст](#text)
+- [Программирование](#coding)
+- [Агенты](#agents)
+- [Изображения](#image)
+- [Видео](#video)
+- [Аудио](#audio)
+- [Другое](#other)
+- [Обучающие ресурсы](#learning-resources)
+- [Дополнительные списки](#more-lists)
 
-## Recommended reading
+## Рекомендуемые материалы для чтения
 
-- [How Large Language Models Will Transform Science, Society, and AI](https://hai.stanford.edu/news/how-large-language-models-will-transform-science-society-and-ai) - Article summarizing the capabilities and limitations of the GPT-3 model, and its potential impact on society. By Alex Tamkin and Deep Ganguli, February 5, 2021.
-- [Generative AI: A Creative New World](https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/) - A comprehensive examination of the generative AI industry, offering a historical perspective and in-depth analysis of the industry ecosystem. By Sonya Huang, Pat Grady and GPT-3, September 19, 2022.
-- [A Coming-Out Party for Generative A.I., Silicon Valley's New Craze](https://www.nytimes.com/2022/10/21/technology/generative-ai.html) - Article about the rise of generative AI, particularly the success of the Stable Diffusion image generator, and the associated controversies. New York Times, October 21, 2022.
-- [AI's New Creative Streak Sparks a Silicon Valley Gold Rush](https://www.wired.com/story/ais-new-creative-streak-sparks-a-silicon-valley-gold-rush/) - Article about the growing hype and investment in generative AI startups, with various industries exploring its potential applications. Wired, October 27, 2022.
-- [ChatGPT Heralds an Intellectual Revolution](https://www.wsj.com/articles/artificial-intelligence-generative-ai-chatgpt-kissinger-84512912) - An op-ed by Henry Kissinger, Eric Schmidt and Daniel Huttenlocher. Wall Street Journal, February 24, 2023.
+- [Как большие языковые модели преобразуют науку, общество и ИИ](https://hai.stanford.edu/news/how-large-language-models-will-transform-science-society-and-ai) - Статья, обобщающая возможности и ограничения модели GPT-3, а также её потенциальное влияние на общество. Авторы: Алекс Тамкин и Дип Гангули, 5 февраля 2021.
+- [Генеративный ИИ: Новый творческий мир](https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/) - Комплексное исследование индустрии генеративного ИИ, предлагающее историческую перспективу и глубокий анализ экосистемы отрасли. Авторы: Соня Хуанг, Пэт Грэди и GPT-3, 19 сентября 2022.
+- [Презентация генеративного ИИ, новой одержимости Силиконовой долины](https://www.nytimes.com/2022/10/21/technology/generative-ai.html) - Статья о подъеме генеративного ИИ, особенно об успехе генератора изображений Stable Diffusion и связанных с ним спорах. New York Times, 21 октября 2022.
+- [Новая творческая полоса ИИ вызывает золотую лихорадку в Силиконовой долине](https://www.wired.com/story/ais-new-creative-streak-sparks-a-silicon-valley-gold-rush/) - Статья о растущем ажиотаже и инвестициях в стартапы генеративного ИИ, с различными отраслями, исследующими его потенциальные применения. Wired, 27 октября 2022.
+- [ChatGPT предвещает интеллектуальную революцию](https://www.wsj.com/articles/artificial-intelligence-generative-ai-chatgpt-kissinger-84512912) - Колонка Генри Киссинджера, Эрика Шмидта и Дэниела Хаттенлохера. Wall Street Journal, 24 февраля 2023.
 
-### Milestones
+### Важные вехи
 
-- [OpenAI API](https://openai.com/blog/openai-api/) - Announcement of the OpenAI API for text-to-text general-purpose AI models based on GPT-3. OpenAI blog, June 11, 2020.
-- [GitHub Copilot](https://github.blog/2021-06-29-introducing-github-copilot-ai-pair-programmer/) - Announcement of Copilot, a new AI pair programmer that helps you write better code. GitHub blog, June 29, 2021.
-- [DALL·E 2](https://openai.com/blog/dall-e-2/) - Announcement of the release of DALL·E 2, an advanced image generation system with improved resolution, expanded image creation capabilities, and various safety mitigations. OpenAI blog, April 6, 2022.
-- [Stable Diffusion Public Release](https://stability.ai/blog/stable-diffusion-public-release) - Announcement of the public release of Stable Diffusion, an AI-based image generation model trained on a broad internet scrape and licensed under a Creative ML OpenRAIL-M license. Stable Diffusion blog, 22 August, 2022.
-- [ChatGPT](https://openai.com/blog/chatgpt/) - Announcement of ChatGPT, a conversational model trained to answer follow-up questions, admit mistakes, challenge incorrect premises, and reject inappropriate requests. OpenAI blog, November 30, 2022.
-- [Bing Search](https://blogs.microsoft.com/blog/2023/02/07/reinventing-search-with-a-new-ai-powered-microsoft-bing-and-edge-your-copilot-for-the-web/) - Microsoft announces a new version of its search engine Bing, powered by a next-generation OpenAI model. Microsoft blog, February 7, 2023.
-- [LLaMA](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) - Llama LLM, a foundational, 65-billion-parameter large language model by Meta. Meta, February 23rd, 2023. #opensource
-- [GPT-4](https://openai.com/research/gpt-4) - Announcement of GPT-4, a large multimodal model. OpenAI blog, March 14, 2023.
-- [DALL·E 3](https://openai.com/index/dall-e-3/) - Announcement of DALL·E 3 image generator. OpenAI blog, September 20, 2023.
-- [Sora](https://openai.com/research/video-generation-models-as-world-simulators) - Presentation of Sora, a large video generation model. OpenAI, February 15, 2024.
+- [OpenAI API](https://openai.com/blog/openai-api/) - Анонс OpenAI API для текстовых моделей общего назначения на основе GPT-3. Блог OpenAI, 11 июня 2020.
+- [GitHub Copilot](https://github.blog/2021-06-29-introducing-github-copilot-ai-pair-programmer/) - Анонс Copilot, нового ИИ-напарника по программированию, который помогает писать лучший код. Блог GitHub, 29 июня 2021.
+- [DALL·E 2](https://openai.com/blog/dall-e-2/) - Анонс выпуска DALL·E 2, продвинутой системы генерации изображений с улучшенным разрешением, расширенными возможностями создания изображений и различными мерами безопасности. Блог OpenAI, 6 апреля 2022.
+- [Публичный релиз Stable Diffusion](https://stability.ai/blog/stable-diffusion-public-release) - Анонс публичного релиза Stable Diffusion, модели генерации изображений на основе ИИ, обученной на широком сканировании интернета и лицензированной под Creative ML OpenRAIL-M лицензией. Блог Stable Diffusion, 22 августа 2022.
+- [ChatGPT](https://openai.com/blog/chatgpt/) - Анонс ChatGPT, разговорной модели, обученной отвечать на уточняющие вопросы, признавать ошибки, оспаривать неверные предпосылки и отклонять неуместные запросы. Блог OpenAI, 30 ноября 2022.
+- [Поиск Bing](https://blogs.microsoft.com/blog/2023/02/07/reinventing-search-with-a-new-ai-powered-microsoft-bing-and-edge-your-copilot-for-the-web/) - Microsoft анонсирует новую версию своей поисковой системы Bing, работающую на модели OpenAI следующего поколения. Блог Microsoft, 7 февраля 2023.
+- [LLaMA](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) - Llama LLM, базовая языковая модель с 65 миллиардами параметров от Meta. Meta, 23 февраля 2023. #opensource
+- [GPT-4](https://openai.com/research/gpt-4) - Анонс GPT-4, большой мультимодальной модели. Блог OpenAI, 14 марта 2023.
+- [DALL·E 3](https://openai.com/index/dall-e-3/) - Анонс генератора изображений DALL·E 3. Блог OpenAI, 20 сентября 2023.
+- [Sora](https://openai.com/research/video-generation-models-as-world-simulators) - Презентация Sora, большой модели генерации видео. OpenAI, 15 февраля 2024.
 
-## Text
+## Текст
 
-### Models
+### Модели
 
-- [OpenAI API](https://openai.com/api/) - OpenAI's API provides access to GPT-3 and GPT-4 models, which performs a wide variety of natural language tasks, and Codex, which translates natural language to code.
-- [Gopher](https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval) - Gopher by DeepMind is a 280 billion parameter language model.
-- [OPT](https://huggingface.co/facebook/opt-350m) - Open Pretrained Transformers (OPT) by Facebook is a suite of decoder-only pre-trained transformers. [Announcement](https://ai.facebook.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/). [OPT-175B text generation](https://opt.alpa.ai/) hosted by Alpa.
-- [Bloom](https://huggingface.co/docs/transformers/model_doc/bloom) - BLOOM by Hugging Face is a model similar to GPT-3 that has been trained on 46 different languages and 13 programming languages. #opensource
-- [Llama](https://www.llama.com/) - Meta's open source large language model. #opensource
-- [Claude](https://claude.ai/) - Talk to Claude, an AI assistant from Anthropic.
-- [Vicuna-13B](https://lmsys.org/blog/2023-03-30-vicuna/) - An open-source chatbot trained by fine-tuning LLaMA on user-shared conversations collected from ShareGPT. #opensource
-- [Mistral](https://mistral.ai/en/models) - Cutting-edge open-weight LLMs by Mistral AI. #opensource
-- [Grok](https://grok.x.ai/) - An LLM by xAI with [open source](https://github.com/xai-org/grok-1) and open weights. #opensource
-- [Qwen](https://qwenlm.github.io/) - A series of LLMs independently developed by Alibaba Cloud. [#opensource](https://github.com/QwenLM/Qwen)
+- [OpenAI API](https://openai.com/api/) - API OpenAI предоставляет доступ к моделям GPT-3 и GPT-4, которые выполняют широкий спектр задач обработки естественного языка, и Codex, который переводит естественный язык в код.
+- [Gopher](https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval) - Gopher от DeepMind - это языковая модель с 280 миллиардами параметров.
+- [OPT](https://huggingface.co/facebook/opt-350m) - Open Pretrained Transformers (OPT) от Facebook - это набор предварительно обученных трансформеров только для декодирования. [Анонс](https://ai.facebook.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/). [Генерация текста OPT-175B](https://opt.alpa.ai/) размещена на Alpa.
+- [Bloom](https://huggingface.co/docs/transformers/model_doc/bloom) - BLOOM от Hugging Face - это модель, похожая на GPT-3, которая была обучена на 46 различных языках и 13 языках программирования. #opensource
+- [Llama](https://www.llama.com/) - Открытая языковая модель от Meta. #opensource
+- [Claude](https://claude.ai/) - Общайтесь с Claude, ИИ-ассистентом от Anthropic.
+- [Vicuna-13B](https://lmsys.org/blog/2023-03-30-vicuna/) - Открытый чат-бот, обученный путем тонкой настройки LLaMA на пользовательских беседах, собранных из ShareGPT. #opensource
+- [Mistral](https://mistral.ai/en/models) - Передовые открытые LLM от Mistral AI. #opensource
+- [Grok](https://grok.x.ai/) - LLM от xAI с [открытым исходным кодом](https://github.com/xai-org/grok-1) и открытыми весами. #opensource
+- [Qwen](https://qwenlm.github.io/) - Серия LLM, независимо разработанных Alibaba Cloud. [#opensource](https://github.com/QwenLM/Qwen)
 
-### Chatbots
+### Чат-боты
 
-- [ChatGPT](https://chatgpt.com/) - ChatGPT by OpenAI is a large language model that interacts in a conversational way.
-- [Copilot](https://copilot.microsoft.com/) - An everyday AI companion by Microsoft.
-- [Gemini](https://gemini.google.com/) - A family of multimodal large language model developed by Google Deepmind.
-- [Meta AI](https://www.meta.ai/) - Meta AI assistant to get things done, create AI-generated images, get answers. Built on Llama LLM.
-- [DeepSeek](https://www.deepseek.com/) - Cutting-edge LLMs for enterprise, consumer, and scientific applications. #opensource
-- [Character.AI](https://character.ai/) - Character.AI lets you create characters and chat to them.
-- [Pi](https://pi.ai) - A personalized AI platform available as a digital assistant.
-- [Qwen](https://chat.qwenlm.ai/) - Qwen chatbot with image generation, document processing, web search integration, video understanding, etc.
-- [Le Chat](https://chat.mistral.ai/) - Chat with Mistral AI's cutting-edge language models.
+- [ChatGPT](https://chatgpt.com/) - ChatGPT от OpenAI - это большая языковая модель, которая взаимодействует в разговорном стиле.
+- [Copilot](https://copilot.microsoft.com/) - Повседневный ИИ-компаньон от Microsoft.
+- [Gemini](https://gemini.google.com/) - Семейство мультимодальных больших языковых моделей, разработанных Google Deepmind.
+- [Meta AI](https://www.meta.ai/) - ИИ-ассистент Meta для выполнения задач, создания ИИ-изображений, получения ответов. Построен на LLM Llama.
+- [DeepSeek](https://www.deepseek.com/) - Передовые LLM для корпоративных, потребительских и научных приложений. #opensource
+- [Character.AI](https://character.ai/) - Character.AI позволяет создавать персонажей и общаться с ними.
+- [Pi](https://pi.ai) - Персонализированная ИИ-платформа, доступная как цифровой ассистент.
+- [Qwen](https://chat.qwenlm.ai/) - Чат-бот Qwen с генерацией изображений, обработкой документов, интеграцией веб-поиска, пониманием видео и т.д.
+- [Le Chat](https://chat.mistral.ai/) - Общайтесь с передовыми языковыми моделями Mistral AI.
 
-### Custom interfaces
+### Пользовательские интерфейсы
 
-- [LibreChat](https://librechat.ai/) - LibreChat is a free and open-source chat interface for assistant AIs. [#opensource](https://github.com/danny-avila/LibreChat).
-- [Chatbot UI](https://www.chatbotui.com/) - An open source ChatGPT UI. [#opensource](https://github.com/mckaywrigley/chatbot-ui).
+- [LibreChat](https://librechat.ai/) - LibreChat - это бесплатный и открытый интерфейс чата для ИИ-ассистентов. [#opensource](https://github.com/danny-avila/LibreChat).
+- [Chatbot UI](https://www.chatbotui.com/) - Открытый интерфейс ChatGPT. [#opensource](https://github.com/mckaywrigley/chatbot-ui).
 
-### Search engines
+### Поисковые системы
 
-- [Perplexity AI](https://www.perplexity.ai/) - AI powered search tools.
-- [Metaphor](https://metaphor.systems/) - Language model powered search.
-- [Phind](https://phind.com/) - AI-based search engine.
-- [You.com](https://you.com/) - A search engine built on AI that provides users with a customized search experience while keeping their data 100% private.
-- [Komo](https://komo.ai/) - An AI-powered search engine.
+- [Perplexity AI](https://www.perplexity.ai/) - Инструменты поиска на базе ИИ.
+- [Metaphor](https://metaphor.systems/) - Поиск на базе языковых моделей.
+- [Phind](https://phind.com/) - Поисковая система на базе ИИ.
+- [You.com](https://you.com/) - Поисковая система, построенная на ИИ, которая предоставляет пользователям персонализированный поиск, сохраняя их данные на 100% приватными.
+- [Komo](https://komo.ai/) - Поисковая система на базе ИИ.
 
-### Local search engines
+### Локальные поисковые системы
 
-- [privateGPT](https://github.com/imartinez/privateGPT) - Ask questions to your documents without an internet connection, using the power of LLMs.
-- [quivr](https://github.com/StanGirard/quivr) - Dump all your files and chat with it using your generative AI second brain using LLMs & embeddings.
+- [privateGPT](https://github.com/imartinez/privateGPT) - Задавайте вопросы своим документам без подключения к интернету, используя возможности LLM.
+- [quivr](https://github.com/StanGirard/quivr) - Загрузите все свои файлы и общайтесь с ними, используя свой генеративный ИИ как вторую память, с помощью LLM и эмбеддингов.
 
-### Writing assistants
+### Помощники в написании
 
-- [Jasper](https://www.jasper.ai/) - Create content faster with artificial intelligence.
-- [Compose AI](https://www.compose.ai/) - Compose AI is a free Chrome extension that cuts your writing time by 40% with AI-powered autocompletion.
-- [Rytr](https://rytr.me/) - Rytr is an AI writing assistant that helps you create high-quality content.
-- [wordtune](https://www.wordtune.com/) - Personal writing assistant.
-- [HyperWrite](https://hyperwriteai.com/) - HyperWrite helps you write with confidence and get your work done faster from idea to final draft.
-- [Moonbeam](https://www.gomoonbeam.com/) - Better blogs in a fraction of the time.
-- [copy.ai](https://www.copy.ai/) - Write better marketing copy and content with AI.
-- [ChatSonic](https://writesonic.com/chat) - An AI-powered assistant that enables text and image creation.
-- [Anyword](https://anyword.com/) - Anyword's AI writing assistant generates effective copy for anyone.
-- [Hypotenuse AI](https://www.hypotenuse.ai/) - Turn a few keywords into original, insightful articles, product descriptions and social media copy.
-- [Lavender](https://www.lavender.ai/) - Lavender email assistant helps you get more replies in less time.
-- [Lex](https://lex.page/) - A word processor with artificial intelligence baked in, so you can write faster.
-- [Jenni](https://jenni.ai/) - Jenni is the ultimate writing assistant that saves you hours of ideation and writing time.
-- [LAIKA](https://www.writewithlaika.com/) - LAIKA trains an artificial intelligence on your own writing to create a personalised creative partner-in-crime.
-- [QuillBot](https://quillbot.com) - AI-powered paraphrasing tool.
-- [Postwise](https://postwise.ai/) - Write tweets, schedule posts and grow your following using AI.
-- [Copysmith](https://copysmith.ai/) - AI content creation solution for Enterprise & eCommerce.
+- [Jasper](https://www.jasper.ai/) - Создавайте контент быстрее с помощью искусственного интеллекта.
+- [Compose AI](https://www.compose.ai/) - Compose AI - это бесплатное расширение для Chrome, которое сокращает время написания на 40% с помощью автодополнения на базе ИИ.
+- [Rytr](https://rytr.me/) - Rytr - это ИИ-помощник в написании, который помогает создавать качественный контент.
+- [wordtune](https://www.wordtune.com/) - Персональный помощник в написании.
+- [HyperWrite](https://hyperwriteai.com/) - HyperWrite помогает писать с уверенностью и быстрее выполнять работу от идеи до финального черновика.
+- [Moonbeam](https://www.gomoonbeam.com/) - Лучшие блоги за доли времени.
+- [copy.ai](https://www.copy.ai/) - Пишите лучший маркетинговый текст и контент с помощью ИИ.
+- [ChatSonic](https://writesonic.com/chat) - ИИ-помощник, который позволяет создавать текст и изображения.
+- [Anyword](https://anyword.com/) - ИИ-помощник Anyword генерирует эффективный текст для всех.
+- [Hypotenuse AI](https://www.hypotenuse.ai/) - Превратите несколько ключевых слов в оригинальные, проницательные статьи, описания продуктов и тексты для социальных сетей.
+- [Lavender](https://www.lavender.ai/) - ИИ-помощник Lavender помогает получать больше ответов за меньшее время.
+- [Lex](https://lex.page/) - Текстовый процессор со встроенным искусственным интеллектом, чтобы вы могли писать быстрее.
+- [Jenni](https://jenni.ai/) - Jenni - это лучший помощник в написании, который экономит часы на генерации идей и написании.
+- [LAIKA](https://www.writewithlaika.com/) - LAIKA обучает искусственный интеллект на вашем собственном письме, чтобы создать персонального творческого партнера.
+- [QuillBot](https://quillbot.com) - Инструмент перефразирования на базе ИИ.
+- [Postwise](https://postwise.ai/) - Пишите твиты, планируйте посты и увеличивайте количество подписчиков с помощью ИИ.
+- [Copysmith](https://copysmith.ai/) - Решение для создания контента на базе ИИ для предприятий и электронной коммерции.
 
-### ChatGPT extensions
+### Расширения ChatGPT
 
-- [WebChatGPT](https://chrome.google.com/webstore/detail/webchatgpt-chatgpt-with-i/lpfemeioodjbpieminkklglpmhlngfcn) - Augment your ChatGPT prompts with relevant results from the web.
-- [GPT for Sheets and Docs](https://workspace.google.com/marketplace/app/gpt_for_sheets_and_docs/677318054654) - ChatGPT extension for Google Sheets and Google Docs.
-- [YouTube Summary with ChatGPT](https://chrome.google.com/webstore/detail/youtube-summary-with-chat/nmmicjeknamkfloonkhhcjmomieiodli) - Use ChatGPT to summarize YouTube videos.
-- [ChatGPT Prompt Genius](https://chrome.google.com/webstore/detail/chatgpt-prompt-genius/jjdnakkfjnnbbckhifcfchagnpofjffo) - Discover, share, import, and use the best prompts for ChatGPT & save your chat history locally.
-- [ChatGPT for Search Engines](https://chrome.google.com/webstore/detail/chatgpt-for-search-engine/feeonheemodpkdckaljcjogdncpiiban) - Display ChatGPT response alongside Google, Bing, and DuckDuckGo search results.
-- [ShareGPT](https://sharegpt.com/) - Share your ChatGPT conversations and explore conversations shared by others.
-- [Merlin](https://merlin.foyer.work/) - ChatGPT Plus extension on all websites.
-- [ChatGPT Writer](https://chatgptwriter.ai/) - Generate entire emails and messages using ChatGPT AI.
-- [ChatGPT for Jupyter](https://github.com/TiesdeKok/chat-gpt-jupyter-extension) - Add various helper functions in Jupyter Notebooks and Jupyter Lab, powered by ChatGPT.
-- [editGPT](https://www.editgpt.app/) - Easily proofread, edit, and track changes to your content in chatGPT.
-- [Forefront](https://www.forefront.ai/) - A Better ChatGPT Experience.
+- [WebChatGPT](https://chrome.google.com/webstore/detail/webchatgpt-chatgpt-with-i/lpfemeioodjbpieminkklglpmhlngfcn) - Дополняйте ваши промпты ChatGPT релевантными результатами из интернета.
+- [GPT for Sheets and Docs](https://workspace.google.com/marketplace/app/gpt_for_sheets_and_docs/677318054654) - Расширение ChatGPT для Google Sheets и Google Docs.
+- [YouTube Summary with ChatGPT](https://chrome.google.com/webstore/detail/youtube-summary-with-chat/nmmicjeknamkfloonkhhcjmomieiodli) - Используйте ChatGPT для создания резюме видео на YouTube.
+- [ChatGPT Prompt Genius](https://chrome.google.com/webstore/detail/chatgpt-prompt-genius/jjdnakkfjnnbbckhifcfchagnpofjffo) - Открывайте, делитесь, импортируйте и используйте лучшие промпты для ChatGPT и сохраняйте историю чата локально.
+- [ChatGPT for Search Engines](https://chrome.google.com/webstore/detail/chatgpt-for-search-engine/feeonheemodpkdckaljcjogdncpiiban) - Отображает ответы ChatGPT рядом с результатами поиска Google, Bing и DuckDuckGo.
+- [ShareGPT](https://sharegpt.com/) - Делитесь своими беседами с ChatGPT и исследуйте беседы, которыми поделились другие.
+- [Merlin](https://merlin.foyer.work/) - Расширение ChatGPT Plus для всех веб-сайтов.
+- [ChatGPT Writer](https://chatgptwriter.ai/) - Генерируйте целые электронные письма и сообщения с помощью ИИ ChatGPT.
+- [ChatGPT for Jupyter](https://github.com/TiesdeKok/chat-gpt-jupyter-extension) - Добавляет различные вспомогательные функции в Jupyter Notebooks и Jupyter Lab, работающие на ChatGPT.
+- [editGPT](https://www.editgpt.app/) - Легко проверяйте, редактируйте и отслеживайте изменения в вашем контенте в ChatGPT.
+- [Forefront](https://www.forefront.ai/) - Лучший опыт использования ChatGPT.
 
-### Productivity
+### Продуктивность
 
-- [ChatPDF](https://www.chatpdf.com/) - Chat with any PDF.
-- [Mem](https://mem.ai/) - Mem is the world's first AI-powered workspace that's personalized to you. Amplify your creativity, automate the mundane, and stay organized automatically.
-- [Taskade](https://www.taskade.com/) - Outline tasks, notes, generated structured lists and mind maps with Taskade AI.
-- [Notion AI](https://www.notion.so/product/ai) - Write better, more efficient notes and docs.
-- [Nekton AI](https://nekton.ai) - Automate your workflows with AI. Describe your workflows step by step in plain language.
-- [Rewind](https://www.rewind.ai/) - Rewind is a personalized AI powered by everything you've seen, said, or heard.
-- [NotebookLM](https://notebooklm.google/) - A research and note-taking online tool to interact with documents, powered by Google Gemini.
+- [ChatPDF](https://www.chatpdf.com/) - Общайтесь с любым PDF.
+- [Mem](https://mem.ai/) - Mem - это первое в мире рабочее пространство на базе ИИ, персонализированное под вас. Усиливайте свою креативность, автоматизируйте рутину и оставайтесь организованными автоматически.
+- [Taskade](https://www.taskade.com/) - Создавайте структурированные списки задач, заметок и интеллект-карты с помощью Taskade AI.
+- [Notion AI](https://www.notion.so/product/ai) - Пишите лучшие, более эффективные заметки и документы.
+- [Nekton AI](https://nekton.ai) - Автоматизируйте свои рабочие процессы с помощью ИИ. Описывайте свои рабочие процессы шаг за шагом простым языком.
+- [Rewind](https://www.rewind.ai/) - Rewind - это персонализированный ИИ, работающий на основе всего, что вы видели, сказали или слышали.
+- [NotebookLM](https://notebooklm.google/) - Онлайн-инструмент для исследований и заметок для работы с документами, работающий на Google Gemini.
 
-### Meeting assistants
+### Помощники для встреч
 
-- [Otter.ai](https://otter.ai/) - A meeting assistant that records audio, writes notes, automatically captures slides, and generates summaries.
-- [Cogram](https://www.cogram.com/) - Cogram takes automatic notes in virtual meetings and identifies action items.
-- [Sybill](https://www.sybill.ai/) - Sybill generates summaries of sales calls, including next steps, pain points and areas of interest, by combining transcript and emotion-based insights.
-- [Loopin AI](https://www.loopinhq.com/) - Loopin is a collaborative meeting workspace that not only enables you to record, transcribe & summaries meetings using AI, but also enables you to auto-organise meeting notes on top of your calendar.
-- [Fireflies.ai](https://fireflies.ai/) - Fireflies.ai helps your team transcribe, summarize, search, and analyze voice conversations.
-- [Read AI](https://www.read.ai/) - An AI copilot for wherever you work, making your meetings, emails, and messages more productive with summaries, content discovery, and recommendations.
+- [Otter.ai](https://otter.ai/) - Помощник для встреч, который записывает аудио, пишет заметки, автоматически захватывает слайды и генерирует резюме.
+- [Cogram](https://www.cogram.com/) - Cogram автоматически делает заметки на виртуальных встречах и определяет пункты действий.
+- [Sybill](https://www.sybill.ai/) - Sybill генерирует резюме звонков по продажам, включая следующие шаги, болевые точки и области интереса, комбинируя транскрипт и инсайты на основе эмоций.
+- [Loopin AI](https://www.loopinhq.com/) - Loopin - это совместное рабочее пространство для встреч, которое не только позволяет записывать, транскрибировать и резюмировать встречи с помощью ИИ, но и автоматически организовывать заметки поверх вашего календаря.
+- [Fireflies.ai](https://fireflies.ai/) - Fireflies.ai помогает вашей команде транскрибировать, резюмировать, искать и анализировать голосовые разговоры.
+- [Read AI](https://www.read.ai/) - ИИ-помощник для работы, делающий ваши встречи, электронные письма и сообщения более продуктивными с помощью резюме, обнаружения контента и рекомендаций.
 
-### Academia
+### Академия
 
-- [Elicit](https://elicit.org/) - Elicit uses language models to help you automate research workflows, like parts of literature review.
-- [genei](https://www.genei.io/) - Summarise academic articles in seconds and save 80% on your research times.
-- [Explainpaper](https://www.explainpaper.com/) - A better way to read academic papers. Upload a paper, highlight confusing text, get an explanation.
-- [Galactica](https://galactica.org/) - A large language model for science. Can summarize academic literature, solve math problems, generate Wiki articles, write scientific code, annotate molecules and proteins, and more. [Model API](https://github.com/paperswithcode/galai).
-- [Consensus](https://consensus.app/search/) - Consensus is a search engine that uses AI to find answers in scientific research.
-- [Synthical](https://synthical.com) - AI-powered collaborative research environment.
-- [scite](https://scite.ai/) - A platform for discovering and evaluating scientific articles.
-- [SciSpace](https://typeset.io/) - An AI research assistant for understanding scientific literature.
-- [STORM](https://storm.genie.stanford.edu/) - An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations. [#opensource](https://github.com/stanford-oval/storm/)
+- [Elicit](https://elicit.org/) - Elicit использует языковые модели для автоматизации рабочих процессов исследований, таких как части обзора литературы.
+- [genei](https://www.genei.io/) - Резюмируйте академические статьи за секунды и экономьте 80% времени на исследованиях.
+- [Explainpaper](https://www.explainpaper.com/) - Лучший способ читать академические статьи. Загрузите статью, выделите непонятный текст, получите объяснение.
+- [Galactica](https://galactica.org/) - Большая языковая модель для науки. Может резюмировать академическую литературу, решать математические задачи, генерировать статьи Wiki, писать научный код, аннотировать молекулы и белки и многое другое. [API модели](https://github.com/paperswithcode/galai).
+- [Consensus](https://consensus.app/search/) - Consensus - это поисковая система, которая использует ИИ для поиска ответов в научных исследованиях.
+- [Synthical](https://synthical.com) - Среда для совместных исследований на базе ИИ.
+- [scite](https://scite.ai/) - Платформа для обнаружения и оценки научных статей.
+- [SciSpace](https://typeset.io/) - ИИ-помощник для понимания научной литературы.
+- [STORM](https://storm.genie.stanford.edu/) - Система курирования знаний на базе LLM, которая исследует тему и генерирует полный отчет с цитатами. [#opensource](https://github.com/stanford-oval/storm/)
 
-### Leaderboards
-- [Chatbot Arena](https://lmarena.ai/) - An open platform for crowdsourced AI benchmarking, hosted by researchers at UC Berkeley SkyLab and LMArena.
-- [Artificial Analysis](https://artificialanalysis.ai/) - Artificial Analysis provides objective benchmarks & information to help choose AI models and hosting providers.
-- [imgsys](https://imgsys.org/rankings) - A generative image model arena by fal.ai.
+### Таблицы лидеров
+- [Chatbot Arena](https://lmarena.ai/) - Открытая платформа для краудсорсингового тестирования ИИ, размещенная исследователями из UC Berkeley SkyLab и LMArena.
+- [Artificial Analysis](https://artificialanalysis.ai/) - Artificial Analysis предоставляет объективные тесты и информацию для выбора моделей ИИ и хостинг-провайдеров.
+- [imgsys](https://imgsys.org/rankings) - Арена генеративных моделей изображений от fal.ai.
 
-### Other text generators
+### Другие генераторы текста
 
-- [EmailTriager](https://www.emailtriager.com/) - Use AI to automatically draft email replies in the background.
-- [AI Poem Generator](https://www.aipoemgenerator.org) - AI Poem Generator writes a beautiful rhyming poem for you on any subject, given a text prompt.
+- [EmailTriager](https://www.emailtriager.com/) - Используйте ИИ для автоматического составления ответов на электронные письма в фоновом режиме.
+- [AI Poem Generator](https://www.aipoemgenerator.org) - Генератор стихов на базе ИИ пишет красивое рифмованное стихотворение на любую тему по текстовому запросу.
 
-## Coding
+## Программирование
 
-### Coding Assistants
+### Помощники по программированию
 
-- [GitHub Copilot](https://github.com/features/copilot) - GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.
-- [OpenAI Codex](https://platform.openai.com/docs/guides/code/) - An AI system by OpenAI that translates natural language to code.
-- [Ghostwriter](https://blog.replit.com/ai) - An AI-powered pair programmer by replit.
-- [Amazon Q](https://aws.amazon.com/q/) - The AWS generative AI–powered assistant that helps answer questions, write code, and automate tasks.
-- [tabnine](https://www.tabnine.com/) - Code faster with whole-line & full-function code completions.
-- [Stenography](https://stenography.dev/) - Automatic code documentation.
-- [Mintlify](https://mintlify.com/) - AI powered documentation writer.
-- [Debuild](https://debuild.app/) - AI-powered low-code tool for web apps.
-- [AI2sql](https://www.ai2sql.io/) - With AI2sql, engineers and non-engineers can easily write efficient, error-free SQL queries without knowing SQL.
-- [CodiumAI](https://www.codium.ai/) - With CodiumAI, you get non-trivial tests suggested right inside your IDE, so you stay confident when you push.
-- [PR-Agent](https://github.com/Codium-ai/pr-agent) - AI-powered tool for automated PR analysis, feedback, suggestions and more.
-- [MutableAI](https://mutable.ai/) - AI Accelerated Software Development.
-- [TurboPilot](https://github.com/ravenscroftj/turbopilot) - A self-hosted copilot clone which uses the library behind llama.cpp to run the 6 billion parameter Salesforce Codegen model in 4 GB of RAM.
-- [GPT-Code UI](https://github.com/ricklamers/gpt-code-ui) - An open source implementation of OpenAI's ChatGPT Code interpreter. #opensource
-- [MetaGPT](https://github.com/geekan/MetaGPT) - The Multi-Agent Framework: Given one line Requirement, return PRD, Design, Tasks, Repo
-- [Open Interpreter](https://github.com/KillianLucas/open-interpreter) - OpenAI's Code Interpreter in your terminal, running locally.
-- [Continue](https://www.continue.dev/) - Open-source AI code assistant. Connect any model and any context to create custom autocomplete and chat experiences inside the IDE. [#opensource](https://github.com/continuedev/continue)
+- [GitHub Copilot](https://github.com/features/copilot) - GitHub Copilot использует OpenAI Codex для предложения кода и целых функций в реальном времени прямо из вашего редактора.
+- [OpenAI Codex](https://platform.openai.com/docs/guides/code/) - ИИ-система от OpenAI, которая переводит естественный язык в код.
+- [Ghostwriter](https://blog.replit.com/ai) - ИИ-напарник по программированию от replit.
+- [Amazon Q](https://aws.amazon.com/q/) - Помощник на базе генеративного ИИ от AWS, который помогает отвечать на вопросы, писать код и автоматизировать задачи.
+- [tabnine](https://www.tabnine.com/) - Пишите код быстрее с автодополнением целых строк и функций.
+- [Stenography](https://stenography.dev/) - Автоматическая документация кода.
+- [Mintlify](https://mintlify.com/) - Писатель документации на базе ИИ.
+- [Debuild](https://debuild.app/) - Инструмент с низким кодом на базе ИИ для веб-приложений.
+- [AI2sql](https://www.ai2sql.io/) - С помощью AI2sql инженеры и не-инженеры могут легко писать эффективные, безошибочные SQL-запросы, не зная SQL.
+- [CodiumAI](https://www.codium.ai/) - С помощью CodiumAI вы получаете нетривиальные тесты, предлагаемые прямо в вашей IDE, чтобы оставаться уверенным при отправке.
+- [PR-Agent](https://github.com/Codium-ai/pr-agent) - Инструмент на базе ИИ для автоматического анализа PR, обратной связи, предложений и многого другого.
+- [MutableAI](https://mutable.ai/) - Ускоренная разработка программного обеспечения с помощью ИИ.
+- [TurboPilot](https://github.com/ravenscroftj/turbopilot) - Самодостаточный клон copilot, который использует библиотеку из llama.cpp для запуска модели Salesforce Codegen с 6 миллиардами параметров в 4 ГБ оперативной памяти.
+- [GPT-Code UI](https://github.com/ricklamers/gpt-code-ui) - Открытая реализация интерпретатора кода ChatGPT от OpenAI. #opensource
+- [MetaGPT](https://github.com/geekan/MetaGPT) - Фреймворк мульти-агентов: по одной строке требований возвращает PRD, дизайн, задачи, репозиторий
+- [Open Interpreter](https://github.com/KillianLucas/open-interpreter) - Интерпретатор кода OpenAI в вашем терминале, работающий локально.
+- [Continue](https://www.continue.dev/) - Открытый ИИ-помощник по коду. Подключайте любую модель и любой контекст для создания пользовательских автодополнений и чат-опыта внутри IDE. [#opensource](https://github.com/continuedev/continue)
 
-### Developer tools
+### Инструменты разработчика
 
-- [co:here](https://cohere.ai/) - Cohere provides access to advanced Large Language Models and NLP tools.
-- [Haystack](https://haystack.deepset.ai/) - A framework for building NLP applications (e.g. agents, semantic search, question-answering) with language models.
-- [LangChain](https://langchain.com/) - A framework for developing applications powered by language models.
-- [gpt4all](https://github.com/nomic-ai/gpt4all) - A chatbot trained on a massive collection of clean assistant data including code, stories and dialogue.
-- [LLM App](https://github.com/pathwaycom/llm-app) - Open-source Python library to build real-time LLM-enabled data pipeline.
-- [LMQL](https://lmql.ai/) - LMQL is a query language for large language models.
-- [LlamaIndex](https://www.llamaindex.ai/) - A data framework for building LLM applications over external data.
-- [Phoenix](https://phoenix.arize.com/) - Open-source tool for ML observability that runs in your notebook environment, by Arize. Monitor and fine tune LLM, CV and tabular models.
-- [Cursor](https://www.cursor.so/) - Cursor is the IDE of the future, built for pair-programming with Powerful AI.
-- [SymbolicAI](https://github.com/Xpitfire/symbolicai) - A neuro-symbolic framework for building applications with LLMs at the core.
-- [Vanna.ai](https://vanna.ai/) - An open-source Python RAG framework for SQL generation and related functionality. [#opensource](https://github.com/vanna-ai/vanna)
-- [Portkey](https://portkey.ai/) - A full-stack LLMOps platform for LLM monitoring, caching, and management.
-- [agenta](https://github.com/agenta-ai/agenta) - An open-source end-to-end LLMOps platform for prompt engineering, evaluation, and deployment. #opensource
-- [Together AI](https://www.together.ai/) - Train, fine-tune-and run inference on AI models blazing fast, at low cost, and at production scale.
-- [Gitingest](https://gitingest.com/) - Turn any Git repository into a simple text digest of its codebase so it can be fed into any LLM. [#opensource](https://github.com/cyclotruc/gitingest)
-- [Repomix](https://repomix.com/) - Pack your codebase into AI-friendly formats. [#opensource](https://github.com/yamadashy/repomix)
-- [llama.cpp](https://github.com/ggml-org/llama.cpp) - Inference of Meta's LLaMA model (and others) in pure C/C++. #opensource
-- [bitnet.cpp](https://github.com/microsoft/BitNet) - Official inference framework for 1-bit LLMs, by Microsoft. [#opensource](https://github.com/microsoft/BitNet)
-- [OpenRouter](https://openrouter.ai/) - A unified interface for LLMs. [#opensource](https://github.com/OpenRouterTeam)
+- [co:here](https://cohere.ai/) - Cohere предоставляет доступ к продвинутым большим языковым моделям и инструментам NLP.
+- [Haystack](https://haystack.deepset.ai/) - Фреймворк для создания приложений NLP (например, агенты, семантический поиск, ответы на вопросы) с языковыми моделями.
+- [LangChain](https://langchain.com/) - Фреймворк для разработки приложений на базе языковых моделей.
+- [gpt4all](https://github.com/nomic-ai/gpt4all) - Чат-бот, обученный на огромной коллекции чистых данных ассистента, включая код, истории и диалоги.
+- [LLM App](https://github.com/pathwaycom/llm-app) - Открытая Python-библиотека для создания конвейеров данных в реальном времени с поддержкой LLM.
+- [LMQL](https://lmql.ai/) - LMQL - это язык запросов для больших языковых моделей.
+- [LlamaIndex](https://www.llamaindex.ai/) - Фреймворк данных для создания приложений LLM поверх внешних данных.
+- [Phoenix](https://phoenix.arize.com/) - Открытый инструмент для наблюдения за ML, который работает в вашей среде notebook, от Arize. Мониторинг и тонкая настройка моделей LLM, CV и табличных моделей.
+- [Cursor](https://www.cursor.so/) - Cursor - это IDE будущего, созданная для парного программирования с мощным ИИ.
+- [SymbolicAI](https://github.com/Xpitfire/symbolicai) - Нейро-символический фреймворк для создания приложений с LLM в основе.
+- [Vanna.ai](https://vanna.ai/) - Открытый Python RAG фреймворк для генерации SQL и связанной функциональности. [#opensource](https://github.com/vanna-ai/vanna)
+- [Portkey](https://portkey.ai/) - Полноценная платформа LLMOps для мониторинга, кэширования и управления LLM.
+- [agenta](https://github.com/agenta-ai/agenta) - Открытая сквозная платформа LLMOps для инженерии промптов, оценки и развертывания. #opensource
+- [Together AI](https://www.together.ai/) - Обучайте, тонко настраивайте и запускайте вывод на моделях ИИ быстро, с низкой стоимостью и в производственном масштабе.
+- [Gitingest](https://gitingest.com/) - Превратите любой Git-репозиторий в простой текстовый дайджест его кодовой базы, чтобы его можно было загрузить в любой LLM. [#opensource](https://github.com/cyclotruc/gitingest)
+- [Repomix](https://repomix.com/) - Упакуйте вашу кодовую базу в форматы, удобные для ИИ. [#opensource](https://github.com/yamadashy/repomix)
+- [llama.cpp](https://github.com/ggml-org/llama.cpp) - Вывод модели LLaMA от Meta (и других) на чистом C/C++. #opensource
+- [bitnet.cpp](https://github.com/microsoft/BitNet) - Официальный фреймворк вывода для 1-битных LLM от Microsoft. [#opensource](https://github.com/microsoft/BitNet)
+- [OpenRouter](https://openrouter.ai/) - Унифицированный интерфейс для LLM. [#opensource](https://github.com/OpenRouterTeam)
 
-### Playgrounds
-- [OpenAI Playground](https://platform.openai.com/playground) - Explore resources, tutorials, API docs, and dynamic examples.
-- [Google AI Studio](https://aistudio.google.com/) - A web-based tool to prototype with Gemini and experimental models.
-- [GitHub Models](https://github.com/marketplace/models) - Find and experiment with AI models to develop a generative AI application.
+### Песочницы
+- [OpenAI Playground](https://platform.openai.com/playground) - Исследуйте ресурсы, учебные пособия, API-документацию и динамические примеры.
+- [Google AI Studio](https://aistudio.google.com/) - Веб-инструмент для прототипирования с Gemini и экспериментальными моделями.
+- [GitHub Models](https://github.com/marketplace/models) - Найдите и поэкспериментируйте с моделями ИИ для разработки приложения генеративного ИИ.
 
-### Local LLM Deployment
-- [Ollama](https://github.com/ollama/ollama) - Get up and running with large language models locally.
-- [Open WebUI](https://github.com/open-webui/open-webui) - An extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline. #opensource
-- [Jan](https://jan.ai/) - Run LLMs like Mistral or Llama2 locally and offline on your computer, or connect to remote AI APIs. [#opensource](https://github.com/janhq/jan)
-- [Msty](https://msty.app/) - A straightworward and powerful interface for local and online AI models.
-- [PyGPT](https://pygpt.net/) - Personal desktop AI assistant with chat, vision, agents, image generation, tools and commands, voice control and more. #opensource
-- [LLM](https://llm.datasette.io/) - A CLI utility and Python library for interacting with Large Language Models, remote and local. [#opensource](https://github.com/simonw/llm)
+### Локальное развертывание LLM
+- [Ollama](https://github.com/ollama/ollama) - Быстрое начало работы с большими языковыми моделями локально.
+- [Open WebUI](https://github.com/open-webui/open-webui) - Расширяемая, многофункциональная и удобная самодостаточная платформа ИИ, разработанная для работы полностью офлайн. #opensource
+- [Jan](https://jan.ai/) - Запускайте LLM, такие как Mistral или Llama2, локально и офлайн на вашем компьютере или подключайтесь к удаленным API ИИ. [#opensource](https://github.com/janhq/jan)
+- [Msty](https://msty.app/) - Простой и мощный интерфейс для локальных и онлайн-моделей ИИ.
+- [PyGPT](https://pygpt.net/) - Персональный настольный ИИ-ассистент с чатом, зрением, агентами, генерацией изображений, инструментами и командами, голосовым управлением и многим другим. #opensource
+- [LLM](https://llm.datasette.io/) - Утилита CLI и Python-библиотека для взаимодействия с большими языковыми моделями, удаленными и локальными. [#opensource](https://github.com/simonw/llm)
 
-## Agents
+## Агенты
 
-### Autonomous agents
+### Автономные агенты
 
-- [Auto-GPT](https://github.com/Torantulino/Auto-GPT) - An experimental open-source attempt to make GPT-4 fully autonomous.
-- [babyagi](https://github.com/yoheinakajima/babyagi) - An AI-powered task management system.
-- [AgentGPT](https://github.com/reworkd/AgentGPT) - Assemble, configure, and deploy autonomous AI Agents in your browser.
-- [GPT Engineer](https://github.com/AntonOsika/gpt-engineer) - Specify what you want it to build, the AI asks for clarification, and then builds it.
-- [GPT Prompt Engineer](https://github.com/mshumer/gpt-prompt-engineer) - Automated prompt engineering. It generates, tests, and ranks prompts to find the best ones.
-- [MetaGPT](https://github.com/geekan/MetaGPT) - The Multi-Agent Framework: Given one line requirement, return PRD, design, tasks, repo.
-- [AutoGen](https://github.com/microsoft/autogen) - AutoGen is a framework that enables the development of LLM applications using multiple agents that can converse with each other to solve tasks.
-- [GPT Pilot](https://github.com/Pythagora-io/gpt-pilot) - Dev tool that writes scalable apps from scratch while the developer oversees the implementation.
-- [Devin](https://devin.ai/) - An autonomous AI software engineer by Cognition Labs.
-- [OpenDevin](https://github.com/OpenDevin/OpenDevin) - An autonomous agent designed to navigate the complexities of software engineering. #opensource
-- [Davika](https://github.com/stitionai/devika) - An agentic AI software engineer. #opensource
+- [Auto-GPT](https://github.com/Torantulino/Auto-GPT) - Экспериментальная открытая попытка сделать GPT-4 полностью автономным.
+- [babyagi](https://github.com/yoheinakajima/babyagi) - Система управления задачами на базе ИИ.
+- [AgentGPT](https://github.com/reworkd/AgentGPT) - Собирайте, настраивайте и развертывайте автономных ИИ-агентов в вашем браузере.
+- [GPT Engineer](https://github.com/AntonOsika/gpt-engineer) - Укажите, что вы хотите построить, ИИ попросит уточнений, а затем построит это.
+- [GPT Prompt Engineer](https://github.com/mshumer/gpt-prompt-engineer) - Автоматическая инженерия промптов. Генерирует, тестирует и ранжирует промпты, чтобы найти лучшие.
+- [MetaGPT](https://github.com/geekan/MetaGPT) - Фреймворк мульти-агентов: по одной строке требований возвращает PRD, дизайн, задачи, репозиторий.
+- [AutoGen](https://github.com/microsoft/autogen) - AutoGen - это фреймворк, который позволяет разрабатывать приложения LLM, используя несколько агентов, которые могут общаться друг с другом для решения задач.
+- [GPT Pilot](https://github.com/Pythagora-io/gpt-pilot) - Инструмент разработчика, который пишет масштабируемые приложения с нуля, пока разработчик контролирует реализацию.
+- [Devin](https://devin.ai/) - Автономный ИИ-инженер программного обеспечения от Cognition Labs.
+- [OpenDevin](https://github.com/OpenDevin/OpenDevin) - Автономный агент, разработанный для навигации по сложностям разработки программного обеспечения. #opensource
+- [Davika](https://github.com/stitionai/devika) - Агентный ИИ-инженер программного обеспечения. #opensource
 
-### Custom assistants
+### Пользовательские ассистенты
 
-- [Poe](https://poe.com/) - Poe gives access to a variety of bots.
-- [GPT Builder](https://chat.openai.com/gpts/editor) - Assistant for creating GPT-based assistants.
-- [GPTStore](https://gptstore.ai/) - Find useful GPTs. Share your own GPTs.
+- [Poe](https://poe.com/) - Poe предоставляет доступ к различным ботам.
+- [GPT Builder](https://chat.openai.com/gpts/editor) - Ассистент для создания ассистентов на базе GPT.
+- [GPTStore](https://gptstore.ai/) - Найдите полезные GPT. Поделитесь своими GPT.
 
-## Image
+## Изображения
 
-### Models
+### Модели
 
-- [DALL·E 2](https://openai.com/dall-e-2/) - DALL·E 2 by OpenAI is a new AI system that can create realistic images and art from a description in natural language.
-- [Stable Diffusion](https://huggingface.co/CompVis/stable-diffusion-v1-4) - Stable Diffusion by Stability AI is a state of the art text-to-image model that generates images from text. #opensource
-- [Midjourney](https://www.midjourney.com/) - Midjourney is an independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species.
-- [Imagen](https://imagen.research.google/) - Imagen by Google is a text-to-image diffusion model with an unprecedented degree of photorealism and a deep level of language understanding.
-- [Make-A-Scene](https://ai.facebook.com/blog/greater-creative-control-for-ai-image-generation/) - Make-A-Scene by Meta is a multimodal generative AI method puts creative control in the hands of people who use it by allowing them to describe and illustrate their vision through both text descriptions and freeform sketches.
+- [DALL·E 2](https://openai.com/dall-e-2/) - DALL·E 2 от OpenAI - это новая ИИ-система, которая может создавать реалистичные изображения и искусство из описания на естественном языке.
+- [Stable Diffusion](https://huggingface.co/CompVis/stable-diffusion-v1-4) - Stable Diffusion от Stability AI - это современная модель преобразования текста в изображение, которая генерирует изображения из текста. #opensource
+- [Midjourney](https://www.midjourney.com/) - Midjourney - это независимая исследовательская лаборатория, исследующая новые медиамысли и расширяющая воображаемые возможности человеческого вида.
+- [Imagen](https://imagen.research.google/) - Imagen от Google - это модель диффузии текста в изображение с беспрецедентной степенью фотореализма и глубоким пониманием языка.
+- [Make-A-Scene](https://ai.facebook.com/blog/greater-creative-control-for-ai-image-generation/) - Make-A-Scene от Meta - это мультимодальный метод генеративного ИИ, который дает творческий контроль в руки людей, позволяя им описывать и иллюстрировать свое видение как через текстовые описания, так и через свободные наброски.
 - [DragGAN](https://github.com/XingangPan/DragGAN) - Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold.
 
-### Services
+### Сервисы
 
-- [Craiyon](https://www.craiyon.com/) - Craiyon, formerly DALL-E mini, is an AI model that can draw images from any text prompt.
-- [DreamStudio](https://beta.dreamstudio.ai/) - DreamStudio is an easy-to-use interface for creating images using the Stable Diffusion image generation model.
-- [Artbreeder](https://www.artbreeder.com/) - Artbreeder is new type of creative tool that empowers users creativity by making it easier to collaborate and explore.
-- [GauGAN2](http://gaugan.org/gaugan2/) - GauGAN2 is a robust tool for creating photorealistic art using a combination of words and drawings since it integrates segmentation mapping, inpainting, and text-to-image production in a single model.
-- [Magic Eraser](https://www.magiceraser.io/) - Remove unwanted things from images in seconds.
-- [Imagine by Magic Studio](https://magicstudio.com/imagine) - A tool by Magic Studio that let's you express yourself by just describing what's on your mind.
-- [Alpaca](https://www.getalpaca.io/) - Stable Diffusion Photoshop plugin.
-- [Patience.ai](https://www.patience.ai/) - Patience.ai is an app for creating images with Stable Diffusion, a cutting edge AI developed by Stability.AI.
-- [GenShare](https://www.genshare.io/) - Generate art in seconds for free. Own and share what you create. A multimedia generative studio, democratizing design and creativity.
-- [Playground](https://playground.com/) - Playground is a free-to-use online AI image creator. Use it to create art, social media posts, presentations, posters, videos, logos and more.
-- [Pixelz AI Art Generator](https://pixelz.ai/) - Pixelz AI Art Generator enables you to create incredible art from text. Stable Diffusion, CLIP Guided Diffusion & PXL·E realistic algorithms available.
-- [modyfi](https://www.modyfi.io/) - The image editor you've always wanted. AI-powered creative tools in your browser. Real-time collaboration.
-- [Ponzu](https://www.ponzu.ai/) - Ponzu is your free AI logo generator. Build your brand with creatively designed logos in seconds, using only your imagination.
-- [PhotoRoom](https://www.photoroom.com/) - Create product and portrait pictures using only your phone. Remove background, change background and showcase products.
-- [Avatar AI](https://avatarai.me/) - Create your own AI-generated avatars.
-- [ClipDrop](https://clipdrop.co/) - Create professional visuals without a photo studio, powered by [stability.ai](https://stability.ai/).
-- [Lensa](https://prisma-ai.com/lensa) - An all-in-one image editing app that includes the generation of personalized avatars using Stable Diffusion.
-- [RunDiffusion](https://rundiffusion.com/) - Cloud-based workspace for creating AI-generated art.
-- [Ideogram](https://ideogram.ai/) - A text-to-image platform to make creative expression more accessible.
-- [Bing Image Creator](https://www.bing.com/images/create) - DALLE·3 based text-to-image generator with safety features.
-- [KREA](https://www.krea.ai/) - Generate high quality visuals with an AI that knows about your styles, concepts, or products.
-- [Nightcafe](https://creator.nightcafe.studio/) - NightCafe Creator is an AI Art Generator app with multiple methods of AI art generation.
-- [Leonardo AI](https://leonardo.ai/) - Create production-quality visual assets for your projects with unprecedented quality, speed, and style.
-- [Recraft](https://www.recraft.ai/) - An AI tool that lets creators easily generate and iterate original images, vector art, illustrations, icons, and 3D graphics.
-- [Reve Image](https://reve.art/) - A model trained from the ground up to excel at prompt adherence, aesthetics, and typography.
+- [Craiyon](https://www.craiyon.com/) - Craiyon, ранее известный как DALL-E mini, - это модель ИИ, которая может рисовать изображения из любого текстового запроса.
+- [DreamStudio](https://beta.dreamstudio.ai/) - DreamStudio - это удобный интерфейс для создания изображений с использованием модели генерации изображений Stable Diffusion.
+- [Artbreeder](https://www.artbreeder.com/) - Artbreeder - это новый тип творческого инструмента, который расширяет возможности пользователей, делая сотрудничество и исследование более простым.
+- [GauGAN2](http://gaugan.org/gaugan2/) - GauGAN2 - это мощный инструмент для создания фотореалистичного искусства с использованием комбинации слов и рисунков, поскольку он объединяет сегментационное картирование, инпаинтинг и генерацию изображений из текста в одной модели.
+- [Magic Eraser](https://www.magiceraser.io/) - Удаляйте нежелательные элементы с изображений за секунды.
+- [Imagine by Magic Studio](https://magicstudio.com/imagine) - Инструмент от Magic Studio, который позволяет вам выражать себя, просто описывая то, что у вас на уме.
+- [Alpaca](https://www.getalpaca.io/) - Плагин Stable Diffusion для Photoshop.
+- [Patience.ai](https://www.patience.ai/) - Patience.ai - это приложение для создания изображений с помощью Stable Diffusion, передового ИИ, разработанного Stability.AI.
+- [GenShare](https://www.genshare.io/) - Создавайте искусство за секунды бесплатно. Владейте и делитесь тем, что создаете. Мультимедийная генеративная студия, демократизирующая дизайн и креативность.
+- [Playground](https://playground.com/) - Playground - это бесплатный онлайн-создатель изображений на базе ИИ. Используйте его для создания искусства, постов в социальных сетях, презентаций, плакатов, видео, логотипов и многого другого.
+- [Pixelz AI Art Generator](https://pixelz.ai/) - Pixelz AI Art Generator позволяет создавать невероятное искусство из текста. Доступны алгоритмы Stable Diffusion, CLIP Guided Diffusion и PXL·E realistic.
+- [modyfi](https://www.modyfi.io/) - Редактор изображений, который вы всегда хотели. Креативные инструменты на базе ИИ в вашем браузере. Совместная работа в реальном времени.
+- [Ponzu](https://www.ponzu.ai/) - Ponzu - это ваш бесплатный генератор логотипов на базе ИИ. Создавайте свой бренд с помощью креативно разработанных логотипов за секунды, используя только свое воображение.
+- [PhotoRoom](https://www.photoroom.com/) - Создавайте фотографии продуктов и портреты, используя только свой телефон. Удаляйте фон, меняйте фон и демонстрируйте продукты.
+- [Avatar AI](https://avatarai.me/) - Создавайте свои собственные аватары, сгенерированные ИИ.
+- [ClipDrop](https://clipdrop.co/) - Создавайте профессиональные визуальные материалы без фотостудии, работает на базе [stability.ai](https://stability.ai/).
+- [Lensa](https://prisma-ai.com/lensa) - Многофункциональное приложение для редактирования изображений, которое включает генерацию персонализированных аватаров с помощью Stable Diffusion.
+- [RunDiffusion](https://rundiffusion.com/) - Облачное рабочее пространство для создания искусства, сгенерированного ИИ.
+- [Ideogram](https://ideogram.ai/) - Платформа для создания изображений из текста, делающая креативное самовыражение более доступным.
+- [Bing Image Creator](https://www.bing.com/images/create) - Генератор изображений из текста на базе DALLE·3 с функциями безопасности.
+- [KREA](https://www.krea.ai/) - Создавайте высококачественные визуальные материалы с помощью ИИ, который знает о ваших стилях, концепциях или продуктах.
+- [Nightcafe](https://creator.nightcafe.studio/) - NightCafe Creator - это приложение-генератор ИИ-искусства с несколькими методами генерации ИИ-искусства.
+- [Leonardo AI](https://leonardo.ai/) - Создавайте визуальные ассеты производственного качества для ваших проектов с беспрецедентным качеством, скоростью и стилем.
+- [Recraft](https://www.recraft.ai/) - Инструмент ИИ, который позволяет создателям легко генерировать и итерировать оригинальные изображения, векторную графику, иллюстрации, иконки и 3D-графику.
+- [Reve Image](https://reve.art/) - Модель, обученная с нуля для превосходного следования промптам, эстетики и типографики.
 
-### Graphic design
+### Графический дизайн
 
-- [Brandmark](https://brandmark.io/) - AI-based logo design tool.
-- [Gamma](https://gamma.app/) - Create beautiful presentations and webpages with none of the formatting and design work.
-- [Microsoft Designer](https://designer.microsoft.com/) - Stunning designs in a flash.
+- [Brandmark](https://brandmark.io/) - Инструмент дизайна логотипов на базе ИИ.
+- [Gamma](https://gamma.app/) - Создавайте красивые презентации и веб-страницы без форматирования и дизайнерской работы.
+- [Microsoft Designer](https://designer.microsoft.com/) - Потрясающие дизайны в мгновение ока.
 
-### Image libraries
+### Библиотеки изображений
 
-- [Lexica](https://lexica.art/) - Stable Diffusion search engine.
-- [OpenArt](https://openart.ai/) - Search 10M+ of prompts, and generate AI art via Stable Diffusion, DALL·E 2.
-- [PromptHero](https://prompthero.com/) - Search prompts for models like Stable Diffusion, ChatGPT, Midjourney, etc.
-- [PromptBase](https://promptbase.com/) - Search prompts from top prompt engineers. Sell your own prompts.
+- [Lexica](https://lexica.art/) - Поисковая система Stable Diffusion.
+- [OpenArt](https://openart.ai/) - Поиск по 10M+ промптов и генерация ИИ-искусства через Stable Diffusion, DALL·E 2.
+- [PromptHero](https://prompthero.com/) - Поиск промптов для моделей, таких как Stable Diffusion, ChatGPT, Midjourney и т.д.
+- [PromptBase](https://promptbase.com/) - Поиск промптов от лучших инженеров промптов. Продавайте свои собственные промпты.
 
-### Model libraries
+### Библиотеки моделей
 
-- [Civitai](https://civitai.com/) - Community driven AI model sharing tool.
-- [Stable Diffusion Models](https://rentry.org/sdmodels) - A comprehensive list of Stable Diffusion checkpoints on rentry.org.
+- [Civitai](https://civitai.com/) - Инструмент обмена моделями ИИ, управляемый сообществом.
+- [Stable Diffusion Models](https://rentry.org/sdmodels) - Полный список чекпоинтов Stable Diffusion на rentry.org.
 
-### Stable Diffusion resources
+### Ресурсы Stable Diffusion
 
-- [Stable Horde](https://stablehorde.net/) - A crowdsourced distributed cluster of Stable Diffusion workers.
-- [DiffusionDB](https://diffusiondb.com/) - A list of all public apps, developer tools, guides and plugins for Stable Diffusion. [Airtable version](https://airtable.com/shr0HlBwbw3nZ8Ht3/tblxOCylXV8ynh7ti).
-- [PublicPrompts](https://publicprompts.art/) - A collection of free prompts for Stable Diffusion.
-- [Stableboost](https://stableboost.ai/) - Stableboost is a Stable Diffusion WebUI that lets you quickly generate a lot of images so you can find the perfect ones.
-- [Hugging Face Diffusion Models Course](https://github.com/huggingface/diffusion-models-class) - Python materials for the online course on diffusion models by [@huggingface](https://github.com/huggingface).
+- [Stable Horde](https://stablehorde.net/) - Распределенный кластер работников Stable Diffusion, созданный сообществом.
+- [DiffusionDB](https://diffusiondb.com/) - Список всех публичных приложений, инструментов разработчика, руководств и плагинов для Stable Diffusion. [Версия Airtable](https://airtable.com/shr0HlBwbw3nZ8Ht3/tblxOCylXV8ynh7ti).
+- [PublicPrompts](https://publicprompts.art/) - Коллекция бесплатных промптов для Stable Diffusion.
+- [Stableboost](https://stableboost.ai/) - Stableboost - это Stable Diffusion WebUI, который позволяет быстро генерировать множество изображений, чтобы найти идеальные.
+- [Hugging Face Diffusion Models Course](https://github.com/huggingface/diffusion-models-class) - Материалы на Python для онлайн-курса по моделям диффузии от [@huggingface](https://github.com/huggingface).
 
-## Video
+## Видео
 
-- [Runway](https://runwayml.com/) - Magical AI tools, realtime collaboration, precision editing, and more. Your next-generation content creation suite.
-- [Synthesia](https://www.synthesia.io/) - Create videos from plain text in minutes.
-- [Rephrase AI](https://www.rephrase.ai/) - Rephrase's technology enables hyper-personalized video creation at scale that drive engagement and business efficiencies.
-- [Hour One](https://hourone.ai/) - Turn text into video, featuring virtual presenters, automatically.
-- [Colossyan](https://www.colossyan.com/) - Learning & Development focused video creator. Use AI avatars to create educational videos in multiple languages.
-- [Fliki](https://fliki.ai/) - Create text to video and text to speech content with ai powered voices in minutes.
-- [Pictory](https://pictory.ai/) - Pictory's powerful AI enables you to create and edit professional quality videos using text.
-- [Pika](https://pika.art/) - An idea-to-video platform that brings your creativity to motion.
-- [Sora](https://openai.com/sora) - An AI model that can create realistic and imaginative scenes from text instructions.
-- [Luma Dream Machine](https://lumalabs.ai/dream-machine) - An AI model that makes high quality, realistic videos fast from text and images.
-- [Infinity AI](https://infinity.ai/) - Infinity is a video foundation model that allows you to craft your characters and then bring them to life.
-- [KLING AI](https://klingai.com/) - Tools for creating imaginative images and videos.
-- [Hailuo AI](https://hailuoai.video/) - AI-powered text-to-video generator.
+- [Runway](https://runwayml.com/) - Волшебные инструменты ИИ, совместная работа в реальном времени, точное редактирование и многое другое. Ваш набор инструментов для создания контента следующего поколения.
+- [Synthesia](https://www.synthesia.io/) - Создавайте видео из обычного текста за считанные минуты.
+- [Rephrase AI](https://www.rephrase.ai/) - Технология Rephrase позволяет создавать гиперперсонализированные видео в масштабе, которые повышают вовлеченность и эффективность бизнеса.
+- [Hour One](https://hourone.ai/) - Превращайте текст в видео с виртуальными ведущими автоматически.
+- [Colossyan](https://www.colossyan.com/) - Создатель видео, ориентированный на обучение и развитие. Используйте ИИ-аватары для создания обучающих видео на нескольких языках.
+- [Fliki](https://fliki.ai/) - Создавайте контент из текста в видео и текст в речь с помощью ИИ-голосов за считанные минуты.
+- [Pictory](https://pictory.ai/) - Мощный ИИ Pictory позволяет создавать и редактировать видео профессионального качества с помощью текста.
+- [Pika](https://pika.art/) - Платформа от идеи к видео, которая воплощает ваше творчество в движении.
+- [Sora](https://openai.com/sora) - Модель ИИ, которая может создавать реалистичные и креативные сцены из текстовых инструкций.
+- [Luma Dream Machine](https://lumalabs.ai/dream-machine) - Модель ИИ, которая быстро создает высококачественные, реалистичные видео из текста и изображений.
+- [Infinity AI](https://infinity.ai/) - Infinity - это базовая модель видео, которая позволяет создавать персонажей и оживлять их.
+- [KLING AI](https://klingai.com/) - Инструменты для создания креативных изображений и видео.
+- [Hailuo AI](https://hailuoai.video/) - Генератор видео из текста на базе ИИ.
 
-### Avatars
+### Аватары
 
-- [D-ID](https://www.d-id.com/) - Create and interact with talking avatars at the touch of a button.
-- [HeyGen](https://app.heygen.com/) - Turn scripts into talking videos with customizable AI avatars in minutes.
-- [RenderNet](https://rendernet.ai/) - RenderNet AI is a tool for generating images and videos, providing control over character design, composition, and style.
+- [D-ID](https://www.d-id.com/) - Создавайте и взаимодействуйте с говорящими аватарами одним нажатием кнопки.
+- [HeyGen](https://app.heygen.com/) - Превращайте сценарии в говорящие видео с настраиваемыми ИИ-аватарами за считанные минуты.
+- [RenderNet](https://rendernet.ai/) - RenderNet AI - это инструмент для генерации изображений и видео, предоставляющий контроль над дизайном персонажей, композицией и стилем.
 
-### Animation
+### Анимация
 
-- [Wonder Dynamics](https://wonderdynamics.com/) -  Effortlessly animate, light, and compose CG characters into live scenes.
+- [Wonder Dynamics](https://wonderdynamics.com/) - Легко анимируйте, освещайте и компонуйте CG-персонажей в живые сцены.
 
-## Audio
+## Аудио
 
-### Text-to-speech
+### Преобразование текста в речь
 
-- [Eleven Labs](https://beta.elevenlabs.io/) - AI voice generator.
-- [Resemble AI](https://www.resemble.ai/) - AI voice generator and voice cloning for text to speech.
-- [WellSaid](https://wellsaidlabs.com/) - Convert text to voice in real time.
-- [Play.ht](https://play.ht/) - AI Voice Generator. Generate realistic Text to Speech voice over online with AI. Convert text to audio.
-- [podcast.ai](https://podcast.ai/) - A podcast that is entirely generated by artificial intelligence, powered by Play.ht text-to-voice AI.
-- [VALL-E X](https://vallex-demo.github.io/) - A cross-lingual neural codec language model for cross-lingual speech synthesis.
-- [TorToiSe](https://github.com/neonbjb/tortoise-tts) - A multi-voice text-to-speech system trained with an emphasis on quality. #opensource
-- [Bark](https://github.com/suno-ai/bark) - A transformer-based text-to-audio model. #opensource
+- [Eleven Labs](https://beta.elevenlabs.io/) - Генератор ИИ-голосов.
+- [Resemble AI](https://www.resemble.ai/) - Генератор ИИ-голосов и клонирование голоса для преобразования текста в речь.
+- [WellSaid](https://wellsaidlabs.com/) - Преобразуйте текст в голос в реальном времени.
+- [Play.ht](https://play.ht/) - Генератор ИИ-голосов. Создавайте реалистичное преобразование текста в речь онлайн с помощью ИИ. Преобразуйте текст в аудио.
+- [podcast.ai](https://podcast.ai/) - Подкаст, полностью созданный искусственным интеллектом, работающий на базе ИИ-технологии преобразования текста в голос Play.ht.
+- [VALL-E X](https://vallex-demo.github.io/) - Кросс-лингвальная нейронная кодек-языковая модель для кросс-лингвального синтеза речи.
+- [TorToiSe](https://github.com/neonbjb/tortoise-tts) - Многоязычная система преобразования текста в речь, обученная с акцентом на качество. #opensource
+- [Bark](https://github.com/suno-ai/bark) - Модель преобразования текста в аудио на основе трансформеров. #opensource
 
-### Speech-to-text
-- [Whisper](https://openai.com/index/whisper/) - Robust speech recognition via large-scale weak supervision. [#opensource](https://github.com/openai/whisper)
-- [Wispr Flow](https://wisprflow.ai/) - Flow makes writing quick with seamless voice dictation for any application on your computer.
-- [Vibe Transcribe](https://thewh1teagle.github.io/vibe/) - All-in-one solution for effortless audio and video transcription. [#opensource](https://github.com/thewh1teagle/vibe)
-- [whisper.cpp](https://github.com/ggerganov/whisper.cpp) - Port of OpenAI's Whisper model in C/C++. #opensource
+### Преобразование речи в текст
 
-### Music
+- [Whisper](https://openai.com/index/whisper/) - Надежное распознавание речи с помощью крупномасштабного слабого обучения. [#opensource](https://github.com/openai/whisper)
+- [Wispr Flow](https://wisprflow.ai/) - Flow ускоряет написание с помощью бесшовного голосового ввода для любого приложения на вашем компьютере.
+- [Vibe Transcribe](https://thewh1teagle.github.io/vibe/) - Комплексное решение для легкой транскрипции аудио и видео. [#opensource](https://github.com/thewh1teagle/vibe)
+- [whisper.cpp](https://github.com/ggerganov/whisper.cpp) - Порт модели Whisper от OpenAI на C/C++. #opensource
 
-- [Harmonai](https://www.harmonai.org/) - We are a community-driven organization releasing open-source generative audio tools to make music production more accessible and fun for everyone.
-- [Mubert](https://mubert.com/) - A royalty-free music ecosystem for content creators, brands and developers.
-- [MusicLM](https://google-research.github.io/seanet/musiclm/examples/) - A model by Google Research for generating high-fidelity music from text descriptions.
-- [AudioCraft](https://audiocraft.metademolab.com/) - A single-stop code base for generative audio needs, by Meta. Includes MusicGen for music and AudioGen for sounds. #opensource
-- [Stable Audio](https://stability.ai/stable-audio) - Stable Audio is Stability AI's first product for music and sound effect generation.
-- [AIVA](https://www.aiva.ai/) - AI-based music generation assistant. Choose from 250+ styles.
-- [Suno AI](https://www.suno.ai/) - Anyone can make great music. No instrument needed, just imagination. From your mind to music.
-- [Udio](https://www.udio.com/) - Discover, create, and share music with the world.
+### Музыка
 
-## Other
+- [Harmonai](https://www.harmonai.org/) - Мы - организация, управляемая сообществом, выпускающая инструменты генеративного аудио с открытым исходным кодом, чтобы сделать создание музыки более доступным и увлекательным для всех.
+- [Mubert](https://mubert.com/) - Экосистема бесплатной музыки для создателей контента, брендов и разработчиков.
+- [MusicLM](https://google-research.github.io/seanet/musiclm/examples/) - Модель от Google Research для генерации высококачественной музыки из текстовых описаний.
+- [AudioCraft](https://audiocraft.metademolab.com/) - Единая кодовая база для генеративных аудио-потребностей от Meta. Включает MusicGen для музыки и AudioGen для звуков. #opensource
+- [Stable Audio](https://stability.ai/stable-audio) - Stable Audio - первый продукт Stability AI для генерации музыки и звуковых эффектов.
+- [AIVA](https://www.aiva.ai/) - Помощник по генерации музыки на базе ИИ. Выбирайте из более чем 250 стилей.
+- [Suno AI](https://www.suno.ai/) - Каждый может создавать отличную музыку. Не нужны инструменты, только воображение. От вашей мысли к музыке.
+- [Udio](https://www.udio.com/) - Открывайте, создавайте и делитесь музыкой со всем миром.
 
-- [Diagram](https://diagram.com/) - Magical new ways to design products.
-- [PromptBase](https://promptbase.com/) - A marketplace for buying and selling quality prompts for DALL·E, GPT-3, Midjourney, Stable Diffusion.
-- [This Image Does Not Exist](https://thisimagedoesnotexist.com/) - Test your ability to tell if an image is human or computer generated.
-- [Have I Been Trained?](https://haveibeentrained.com/) - Check if your image has been used to train popular AI art models.
-- [AI Dungeon](https://aidungeon.io/) - A text-based adventure-story game you direct (and star in) while the AI brings it to life.
-- [Clickable](https://www.clickable.so/) - Generate ads in seconds with AI. Beautiful, brand-consistent, and highly converting ads for all marketing channels.
-- [Scale Spellbook](https://scale.com/spellbook) - Build, compare, and deploy large language model apps with Scale Spellbook.
-- [Scenario](https://www.scenario.com/) - AI-generated gaming assets.
-- [Teleprompter](https://github.com/danielgross/teleprompter) - An on-device AI for your meetings that listens to you and makes charismatic quote suggestions.
-- [FinChat](https://finchat.io/) - Using AI, FinChat generates answers to questions about public companies and investors.
-- [Morpher AI](https://morpher.com/ai) - Morpher AI delivers real-time insights and analysis for any market.
-- [Whimsical AI](https://whimsical.com/ai) - GPT-powered mind mapping, flowcharts, and visual tools for rapid idea development and process organization.
+## Другое
 
-## Learning resources
+- [Diagram](https://diagram.com/) - Волшебные новые способы проектирования продуктов.
+- [PromptBase](https://promptbase.com/) - Маркетплейс для покупки и продажи качественных промптов для DALL·E, GPT-3, Midjourney, Stable Diffusion.
+- [This Image Does Not Exist](https://thisimagedoesnotexist.com/) - Проверьте свою способность определять, создано ли изображение человеком или компьютером.
+- [Have I Been Trained?](https://haveibeentrained.com/) - Проверьте, использовалось ли ваше изображение для обучения популярных моделей ИИ-искусства.
+- [AI Dungeon](https://aidungeon.io/) - Текстовая приключенческая игра, которую вы направляете (и в которой играете главную роль), а ИИ оживляет её.
+- [Clickable](https://www.clickable.so/) - Создавайте рекламу за секунды с помощью ИИ. Красивая, соответствующая бренду и высококонвертируемая реклама для всех маркетинговых каналов.
+- [Scale Spellbook](https://scale.com/spellbook) - Создавайте, сравнивайте и развертывайте приложения на базе больших языковых моделей с помощью Scale Spellbook.
+- [Scenario](https://www.scenario.com/) - Игровые ассеты, созданные с помощью ИИ.
+- [Teleprompter](https://github.com/danielgross/teleprompter) - ИИ на устройстве для ваших встреч, который слушает вас и предлагает харизматичные цитаты.
+- [FinChat](https://finchat.io/) - Используя ИИ, FinChat генерирует ответы на вопросы о публичных компаниях и инвесторах.
+- [Morpher AI](https://morpher.com/ai) - Morpher AI предоставляет аналитику и анализ в реальном времени для любого рынка.
+- [Whimsical AI](https://whimsical.com/ai) - Интеллект-карты, блок-схемы и визуальные инструменты на базе GPT для быстрой разработки идей и организации процессов.
 
-- [Learn Prompting](https://learnprompting.org/) - A free, open source course on communicating with artificial intelligence.
-- [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) - Guide and resources for prompt engineering.
-- [ChatGPT prompt engineering for developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) - A short course by Isa Fulford (OpenAI) and Andrew Ng (DeepLearning.AI).
-- [OpenAI Cookbook](https://github.com/openai/openai-cookbook) - Examples and guides for using the OpenAI API.
-- [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) - Strategies and tactics for getting better results from large language models.
-- [PromptPerfect](https://promptperfect.jina.ai/) - Tool for prompt engineering.
-- [Anthropic courses](https://github.com/anthropics/courses) - Anthropic's educational courses.
-- [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch) - A guide to building your own working LLM, by Sebastian Raschka.
+## Обучающие ресурсы
 
-## More lists
+- [Learn Prompting](https://learnprompting.org/) - Бесплатный курс с открытым исходным кодом по общению с искусственным интеллектом.
+- [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) - Руководство и ресурсы по инженерии промптов.
+- [ChatGPT prompt engineering for developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) - Короткий курс от Исы Фулфорд (OpenAI) и Эндрю Нг (DeepLearning.AI).
+- [OpenAI Cookbook](https://github.com/openai/openai-cookbook) - Примеры и руководства по использованию API OpenAI.
+- [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) - Стратегии и тактики для получения лучших результатов от больших языковых моделей.
+- [PromptPerfect](https://promptperfect.jina.ai/) - Инструмент для инженерии промптов.
+- [Anthropic courses](https://github.com/anthropics/courses) - Образовательные курсы от Anthropic.
+- [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch) - Руководство по созданию собственной рабочей LLM, автор Себастьян Рашка.
 
-- [Tools and Resources for AI Art](https://pharmapsychotic.com/tools.html) - A large list of Google Colab notebooks for generative AI, by [@pharmapsychotic](https://twitter.com/pharmapsychotic).
-- [The Generative AI Application Landscape](https://twitter.com/sonyatweetybird/status/1584580362339962880) - An infographic that maps the generative AI ecosystem, by [Sonya Huang](https://twitter.com/sonyatweetybird) of Sequioa Capital.
-- [Startups - @builtwithgenai](https://airtable.com/shr6nfE9FOHp17IjG/tblL3ekHZfkm3p6YT) - An Airtable list by [@builtwithgenai](https://twitter.com/builtwithgenai).
-- [The Generative AI Index](https://airtable.com/shrH4REIgddv8SzUo/tbl5dsXdD1P859QLO) - An Airtable list by [Scale Venture Partners](https://www.scalevp.com/generative-ai).
-- [Generative AI for Games](https://twitter.com/gwertz/status/1593268767269670912) - A market map of companies working on Generative AI for games, by [a16z](https://a16z.com/).
-- [Generative Deep Art](https://github.com/filipecalegario/awesome-generative-deep-art) - A curated list of generative deep learning tools, works, models, etc. for artistic uses, by [@filipecalegario](https://github.com/filipecalegario/).
-- [GPT-3 Demo](https://gpt3demo.com/) - Showcase with GPT-3 examples, demos, apps, showcase, and NLP use-cases.
-- [GPT-4 Demo](https://gpt4demo.com/) - GPT-4 apps and use-cases.
-- [The Generative AI Landscape](https://github.com/ai-collection/ai-collection) - A Collection of Awesome Generative AI Applications.
-- [Molecular design](https://github.com/AspirinCode/papers-for-molecular-design-using-DL) - List of molecular design using Generative AI and Deep Learning.
-- [Open LLMs](https://github.com/eugeneyan/open-llms) - A list of open LLMs available for commercial use.
+## Дополнительные списки
 
-### Lists on ChatGPT
+- [Tools and Resources for AI Art](https://pharmapsychotic.com/tools.html) - Большой список Google Colab ноутбуков для генеративного ИИ, автор [@pharmapsychotic](https://twitter.com/pharmapsychotic).
+- [The Generative AI Application Landscape](https://twitter.com/sonyatweetybird/status/1584580362339962880) - Инфографика, отображающая экосистему генеративного ИИ, автор [Sonya Huang](https://twitter.com/sonyatweetybird) из Sequioa Capital.
+- [Startups - @builtwithgenai](https://airtable.com/shr6nfE9FOHp17IjG/tblL3ekHZfkm3p6YT) - Список Airtable от [@builtwithgenai](https://twitter.com/builtwithgenai).
+- [The Generative AI Index](https://airtable.com/shrH4REIgddv8SzUo/tbl5dsXdD1P859QLO) - Список Airtable от [Scale Venture Partners](https://www.scalevp.com/generative-ai).
+- [Generative AI for Games](https://twitter.com/gwertz/status/1593268767269670912) - Карта рынка компаний, работающих над генеративным ИИ для игр, от [a16z](https://a16z.com/).
+- [Generative Deep Art](https://github.com/filipecalegario/awesome-generative-deep-art) - Кураторский список инструментов генеративного глубокого обучения, работ, моделей и т.д. для художественного использования, автор [@filipecalegario](https://github.com/filipecalegario).
+- [GPT-3 Demo](https://gpt3demo.com/) - Витрина с примерами GPT-3, демо, приложениями, шоукейсом и вариантами использования NLP.
+- [GPT-4 Demo](https://gpt4demo.com/) - Приложения и варианты использования GPT-4.
+- [The Generative AI Landscape](https://github.com/ai-collection/ai-collection) - Коллекция замечательных приложений генеративного ИИ.
+- [Molecular design](https://github.com/AspirinCode/papers-for-molecular-design-using-DL) - Список молекулярного дизайна с использованием генеративного ИИ и глубокого обучения.
+- [Open LLMs](https://github.com/eugeneyan/open-llms) - Список открытых LLM, доступных для коммерческого использования.
 
-- [Awesome ChatGPT](https://github.com/humanloop/awesome-chatgpt) - A curated list of awesome tools, demos, docs for ChatGPT and GPT-3, by [@jordn](https://github.com/jordn).
-- [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) - A collection of prompt examples to be used with the ChatGPT model.
-- [FlowGPT](https://flowgpt.com/) - Amplify your workflow with the best prompts.
-- [ChatGPT Prompts for Data Science](https://github.com/travistangvh/ChatGPT-Data-Science-Prompts) - A repository of useful data science prompts for ChatGPT.
-- [Awesome ChatGPT](https://github.com/sindresorhus/awesome-chatgpt) - Another awesome list for ChatGPT.
+### Списки по ChatGPT
+
+- [Awesome ChatGPT](https://github.com/humanloop/awesome-chatgpt) - Кураторский список замечательных инструментов, демо, документации для ChatGPT и GPT-3, автор [@jordn](https://github.com/jordn).
+- [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) - Коллекция примеров промптов для использования с моделью ChatGPT.
+- [FlowGPT](https://flowgpt.com/) - Усильте свой рабочий процесс с помощью лучших промптов.
+- [ChatGPT Prompts for Data Science](https://github.com/travistangvh/ChatGPT-Data-Science-Prompts) - Репозиторий полезных промптов для науки о данных в ChatGPT.
+- [Awesome ChatGPT](https://github.com/sindresorhus/awesome-chatgpt) - Еще один замечательный список для ChatGPT.
