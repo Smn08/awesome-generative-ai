@@ -8,16 +8,16 @@
 
 ## Содержание
 
-- [Рекомендуемые материалы для чтения](#recommended-reading)
-- [Текст](#text)
-- [Программирование](#coding)
-- [Агенты](#agents)
-- [Изображения](#image)
-- [Видео](#video)
-- [Аудио](#audio)
-- [Другое](#other)
-- [Обучающие ресурсы](#learning-resources)
-- [Дополнительные списки](#more-lists)
+- [Рекомендуемые материалы для чтения](#рекомендуемые-материалы-для-чтения)
+- [Текст](#текст)
+- [Программирование](#программирование)
+- [Агенты](#агенты)
+- [Изображения](#изображения)
+- [Видео](#видео)
+- [Аудио](#аудио)
+- [Другое](#другое)
+- [Обучающие ресурсы](#обучающие-ресурсы)
+- [Дополнительные списки](#дополнительные-списки)
 
 ## Рекомендуемые материалы для чтения
 
@@ -400,11 +400,3 @@
 - [The Generative AI Landscape](https://github.com/ai-collection/ai-collection) - Коллекция замечательных приложений генеративного ИИ.
 - [Molecular design](https://github.com/AspirinCode/papers-for-molecular-design-using-DL) - Список молекулярного дизайна с использованием генеративного ИИ и глубокого обучения.
 - [Open LLMs](https://github.com/eugeneyan/open-llms) - Список открытых LLM, доступных для коммерческого использования.
-
-### Списки по ChatGPT
-
-- [Awesome ChatGPT](https://github.com/humanloop/awesome-chatgpt) - Кураторский список замечательных инструментов, демо, документации для ChatGPT и GPT-3, автор [@jordn](https://github.com/jordn).
-- [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) - Коллекция примеров промптов для использования с моделью ChatGPT.
-- [FlowGPT](https://flowgpt.com/) - Усильте свой рабочий процесс с помощью лучших промптов.
-- [ChatGPT Prompts for Data Science](https://github.com/travistangvh/ChatGPT-Data-Science-Prompts) - Репозиторий полезных промптов для науки о данных в ChatGPT.
-- [Awesome ChatGPT](https://github.com/sindresorhus/awesome-chatgpt) - Еще один замечательный список для ChatGPT.
